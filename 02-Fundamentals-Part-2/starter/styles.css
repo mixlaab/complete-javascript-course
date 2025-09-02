@@ -1,0 +1,158 @@
+body {
+  background-color: #3f51b1;
+}
+
+.app-title {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-bottom: 100px;
+  color: lightgreen;
+}
+
+.app-container {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 50%;
+  height: 300px;
+  margin: auto;
+}
+
+#min-container {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 0.5rem 1rem;
+  max-width: 200px;
+  width: 100%;
+  justify-self: center;
+}
+
+#max-container {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0.5rem 1rem;
+  max-width: 200px;
+  width: 100%;
+  justify-self: center;
+}
+
+input {
+  width: 100%;
+}
+
+label {
+  font-family: "Lato", sans-serif;
+  color: aliceblue;
+}
+
+#random-number {
+  font-family: "Digital-7", sans-serif;
+  font-size: 150px;
+  grid-column: 1;
+  grid-row: 1/4;
+  width: 150px;
+  color: greenyellow;
+  margin: 20px;
+  justify-self: center;
+}
+
+/* Style the generate button */
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 1.2rem;
+  cursor: pointer;
+  width: 60%;
+  height: 75px;
+  line-height: 25px;
+  grid-column: 2;
+  grid-row: 3;
+  justify-self: center;
+}
+
+.custom-field {
+  position: relative;
+  font-size: 14px;
+  border-top: 20px solid transparent;
+  margin-bottom: 5px;
+  display: inline-block;
+  --field-padding: 12px;
+}
+
+.custom-field input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: var(--field-padding);
+  border-radius: 3px;
+  width: 100%;
+  outline: none;
+  font-size: 14px;
+}
+
+.custom-field .placeholder {
+  position: absolute;
+  left: var(--field-padding);
+  width: calc(100% - (var(--field-padding) * 2));
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 22px;
+  line-height: 100%;
+  transform: translateY(-50%);
+  color: #aaa;
+  transition: top 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
+
+.custom-field input.dirty + .placeholder,
+.custom-field input:focus + .placeholder,
+.custom-field input:not(:placeholder-shown) + .placeholder {
+  top: -10px;
+  font-size: 10px;
+  color: #222;
+}
+
+.custom-field .error-message {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 12px;
+  background: #d30909;
+  color: #fff;
+  height: 24px;
+}
+
+.custom-field .error-message:empty {
+  opacity: 0;
+}
+
+/* TWO */
+.custom-field.two input {
+  border-radius: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: linear-gradient(90deg, #222, #222) center bottom/0 0.15em
+      no-repeat,
+    linear-gradient(90deg, #ccc, #ccc) left bottom/100% 0.15em no-repeat,
+    linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+  transition: background-size 0.3s ease;
+}
+
+.custom-field.two input.dirty,
+.custom-field.two input:not(:placeholder-shown),
+.custom-field.two input:focus {
+  background-size: 100% 0.15em, 100% 0.1em, 100%;
+}

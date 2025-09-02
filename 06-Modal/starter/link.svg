@@ -1,0 +1,43 @@
+<svg width="240" height="240" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(12)">
+    <!-- Gorro -->
+    <rect x="6" y="1" width="8" height="1" fill="#7CFC00"/>
+    <rect x="5" y="2" width="10" height="1" fill="#7CFC00"/>
+    
+    <!-- Cabello -->
+    <rect x="5" y="3" width="1" height="2" fill="#8B4513"/>
+    <rect x="14" y="3" width="1" height="2" fill="#8B4513"/>
+    <rect x="6" y="3" width="1" height="1" fill="#8B4513"/>
+    <rect x="13" y="3" width="1" height="1" fill="#8B4513"/>
+    <rect x="8" y="3" width="4" height="1" fill="#8B4513"/>
+    
+    <!-- Cara -->
+    <rect x="6" y="4" width="8" height="3" fill="#FFA500"/>
+    
+    <!-- Orejas puntiagudas -->
+    <rect x="4" y="4" width="1" height="1" fill="#FFA500"/>
+    <rect x="15" y="4" width="1" height="1" fill="#FFA500"/>
+    
+    <!-- Ojos -->
+    <rect x="6" y="4" width="2" height="2" fill="#7CFC00"/>
+    <rect x="7" y="5" width="1" height="1" fill="#8B4513"/>
+    <rect x="12" y="4" width="2" height="2" fill="#7CFC00"/>
+    <rect x="12" y="5" width="1" height="1" fill="#8B4513"/>
+    
+    <!-- Nariz/Boca -->
+    <rect x="9" y="6" width="2" height="1" fill="#8B4513"/>
+    
+    <!-- Cuerpo -->
+    <rect x="7" y="7" width="6" height="4" fill="#7CFC00"/>
+    <rect x="5" y="8" width="2" height="3" fill="#7CFC00"/>
+    <rect x="13" y="8" width="2" height="3" fill="#7CFC00"/>
+    
+    <!-- Escudo -->
+    <rect x="4" y="7" width="3" height="5" fill="#8B4513"/>
+    <rect x="5" y="8" width="1" height="3" fill="#FFA500"/>
+    
+    <!-- Piernas -->
+    <rect x="7" y="11" width="2" height="2" fill="#8B4513"/>
+    <rect x="11" y="11" width="2" height="2" fill="#8B4513"/>
+  </g>
+</svg>

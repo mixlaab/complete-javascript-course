@@ -10,15 +10,9 @@ html {
 }
 
 body {
+  background: linear-gradient(to top left, #e5e8e7, #dcddf1);
   font-family: sans-serif;
-  color: #333;
-  line-height: 1.5;
   height: 100vh;
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  background: linear-gradient(to top left, #28b487, #7dd56f);
 }
 
 .show-modal {
@@ -82,4 +76,24 @@ p {
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
+}
+
+.buttons-container {
+  color: #333;
+  line-height: 1.5;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.placement-container {
+  width: 800px;
+  /* height: 320px; */
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  /* align-items: flex-start; */
+  justify-content: center;
 }
